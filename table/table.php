@@ -1773,7 +1773,7 @@
                 </th>
             </tr>
             <tr>
-                <td style="background-color: yellow">
+                <td style="background-color: yellow;">
                     Monday
                 </td>
                 <?php
@@ -1788,16 +1788,16 @@
                             if($row['subject_sec'] == "B") {
                                 if($row['Day'] == "0"){
                                     if($time > 0 && $time < 99) {
-                                        echo "<td style='background-color: wheat;' colspan='$time'></td>";
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 0) {
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 99) {
-                                        echo "<td style='background-color: wheat;' colspan='10'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10'></td>";
                                     }
                                 }
                             }
@@ -1806,7 +1806,7 @@
                 ?>
             </tr>
             <tr>
-                <td style="background-color: yellow">
+                <td style="background-color: yellow;">
                     Tuesday
                 </td>
                 <?php
@@ -1821,16 +1821,16 @@
                             if($row['subject_sec'] == "B") {
                                 if($row['Day'] == "1"){
                                     if($time > 0 && $time < 99) {
-                                        echo "<td style='background-color: wheat;' colspan='$time'></td>";
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 0) {
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 99) {
-                                        echo "<td style='background-color: wheat;' colspan='10'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10'></td>";
                                     }
                                 }
                             }
@@ -1839,7 +1839,7 @@
                 ?>
             </tr>
             <tr>
-                <td style="background-color: yellow">
+                <td style="background-color: yellow;">
                     Wednesday
                 </td>
                 <?php
@@ -1853,16 +1853,16 @@
                             if($row['subject_sec'] == "B") {
                                 if($row['Day'] == "2"){
                                     if($time > 0 && $time < 99) {
-                                        echo "<td style='background-color: wheat;' colspan='$time'></td>";
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 0) {
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 99) {
-                                        echo "<td style='background-color: wheat;' colspan='10'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10'></td>";
                                     }
                                 }
                             }
@@ -1871,7 +1871,7 @@
                 ?>
             </tr>
             <tr>
-                <td style="background-color: yellow">
+                <td style="background-color: yellow;">
                     Thurday
                 </td>
                 <?php
@@ -1885,16 +1885,16 @@
                             if($row['subject_sec'] == "B") {
                                 if($row['Day'] == "3"){
                                     if($time > 0 && $time < 99) {
-                                        echo "<td style='background-color: wheat;' colspan='$time'></td>";
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 0) {
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 99) {
-                                        echo "<td style='background-color: wheat;' colspan='10'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10'></td>";
                                     }
                                 }
                             } 
@@ -1903,7 +1903,7 @@
                 ?>
             </tr>
             <tr>
-                <td style="background-color: yellow">
+                <td style="background-color: yellow;">
                     Friday
                 </td>
                 <?php
@@ -1917,16 +1917,16 @@
                             if($row['subject_sec'] == "B") {
                                 if($row['Day'] == "4"){
                                     if($time > 0 && $time < 99) {
-                                        echo "<td style='background-color: wheat;' colspan='$time'></td>";
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 0) {
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 99) {
-                                        echo "<td style='background-color: wheat;' colspan='10'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10'></td>";
                                     }
                                 }
                             } 
@@ -1936,7 +1936,7 @@
                 ?>
             </tr>
             <tr>
-                <td style="background-color: yellow">
+                <td style="background-color: yellow;">
                     Saturday
                 </td>
                 <?php
@@ -1950,16 +1950,16 @@
                             if($row['subject_sec'] == "B") {
                                 if($row['Day'] == "5") {
                                     if($time > 0 && $time < 99) {
-                                        echo "<td style='background-color: wheat;' colspan='$time'></td>";
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 0) {
-                                        echo "<td style='background-color: #00FA9A' colspan='$hour'>" . $row['subject_name'] . "</td>";
-                                        echo "<td style='background-color: wheat;' colspan='10-$time'></td>";
+                                        echo "<td style='background-color: #00FA9A;text-align: center;' colspan='$hour'>" . $row['subject_name'] . "</td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10-$time'></td>";
                                     }
                                     else if($time == 99) {
-                                        echo "<td style='background-color: wheat;' colspan='10'></td>";
+                                        echo "<td style='background-color: wheat;text-align: center;' colspan='10'></td>";
                                     }
                                 }
                             } 
